@@ -1,0 +1,146 @@
+body{
+    --roxo: #AC7AA1;
+    --verde: #99D392;
+    --ciano: #7CCB9F;
+    --verde-escuro: #4D8D69;
+    height: 200vh;
+}
+
+:root{
+  --celular: 540px;
+  --tablet: 720px;
+  --computador: 1400px;
+}
+
+
+input[type=checkbox] {
+    border: 2px solid var(--ciano);
+    box-shadow: none;
+  }
+  
+  input[type=checkbox]:checked {
+    background-color: var(--ciano);
+    border-color: var(--ciano);
+    box-shadow: none;
+    outline: none;
+  }
+
+  input[type=checkbox]:focus {
+    border-color: var(--ciano);
+    box-shadow: none;
+    outline: none;
+  }
+  
+  .banner-1 {
+    background-image: url(https://img.freepik.com/fotos-premium/fundo-abstrato-de-tecnologia-digital_7247-1828.jpg);
+  }
+  
+  .banners {
+    width: 100%;
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    padding-top: 12rem;
+    max-height: 80vh;
+  }
+  
+  .banners-titulo {
+    --bs-bg-opacity: .2;
+    margin-left: 10rem;
+  }
+
+  @media (max-width: 720px){
+    .banners-titulo{
+      margin-left: 2rem;
+      margin-right: 2rem;
+    }
+  }
+  
+  /* .banner-2{
+    background-image: url(./assets/banner-2.png);
+  }
+  
+  .banner-3{
+    background-image: url(./assets/banner-3.png);
+  }
+   */
+  .banners {
+    height: 100vh;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover; 
+    background-position: center;
+    background-attachment: fixed;
+  }
+  
+  .banners-titulo {
+      --bs-bg-opacity: .2;
+      /* olhar no HTML que ta lá desse modo */
+  }
+
+  .botao-padrao {
+    background-color: var(--ciano);
+    color: black;
+  }
+  
+  .botao-padrao:hover {
+    background-color: var(--verde);
+  }
+  
+  .input-range::-webkit-slider-thumb, footer {
+    background-color: var(--ciano);
+  }
+  
+  [data-bs-theme="dark"] {
+    color: white;
+    .nav-link, .card-body, .offcanvas, .accordion, .btn {
+      --bs-nav-link-color: white;
+      --bs-card-color: white;
+      --bs-offcanvas-color: white;
+      --bs-body-color: white;
+      --bs-body-color: white;
+    }
+}
+
+/* Card da home 1,2,3 e 4 */
+#containerDashComponentesKPI{
+  height: auto;
+  width: 90%;
+}
+
+#divtitulo{
+  width: 20vh;
+  height: 10vh;
+}
+
+#titulo{
+  color:#021e46;
+  font-size: large;
+}
+
+#componenteDia{
+  height: 20vh;
+  width: 95%; 
+}
+
+#totalLogsDia{
+  display: flex;
+  height: 20vh;
+  width: 95%;
+  font-size: 50px;
+  justify-content: center;
+  align-items: center;
+}
+
+#qtdLogsHora{
+  display: flex;
+  height: 20vh;
+  width: 95%;
+  font-size: 50px;
+  justify-content: center;
+  align-items: center;
+}
+/* FIM Card da home 1,2,3 e 4 */
+
