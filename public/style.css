@@ -1,9 +1,44 @@
 body{
+    --roxo-vivo: #9747FF;
     --roxo: #AC7AA1;
     --verde: #99D392;
+    --verde-claro: #7CCB9F;
     --ciano: #7CCB9F;
     --verde-escuro: #4D8D69;
-    height: 200vh;
+    --branco: #ffffff;
+    height: auto;
+}
+
+.section-green{
+  background: rgb(232,243,230);
+  background: -moz-linear-gradient(145deg, rgba(232,243,230,1) 5%, rgba(255,255,255,) 50%, rgba(232,243,230,1) 97%);
+  background: -webkit-linear-gradient(145deg, rgba(232,243,230,1) 5%, rgba(255,255,255,) 50%, rgba(232,243,230,1) 97%);
+  background: linear-gradient(145deg, rgba(232,243,230,1) 5%, rgba(255,255,255,) 50%, rgba(232,243,230,1) 97%);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#e8f3e6",endColorstr="#e8f3e6",GradientType=1);
+}
+
+.section-dark{
+  background: rgb(90,105,92);
+  background: -moz-linear-gradient(145deg, rgba(90,105,92,1) 0%, rgba(33,37,41,1) 50%, rgba(90,105,92,1) 100%);
+  background: -webkit-linear-gradient(145deg, rgba(90,105,92,1) 0%, rgb(33, 37, 41) 50%, rgba(90,105,92,1) 100%);
+  background: linear-gradient(145deg, rgba(90,105,92,1) 0%, rgba(33,37,41,1) 50%, rgba(90,105,92,1) 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#5a695c",endColorstr="#5a695c",GradientType=1);
+}
+
+.section-green2{
+  background: rgb(232,243,230);
+  background: -moz-linear-gradient(215deg, rgba(232,243,230,1) 5%, rgba(255,255,255,) 50%, rgba(232,243,230,1) 97%);
+  background: -webkit-linear-gradient(215deg, rgba(232,243,230,1) 5%, rgba(255,255,255,) 50%, rgba(232,243,230,1) 97%);
+  background: linear-gradient(215deg, rgba(232,243,230,1) 5%, rgba(255,255,255,) 50%, rgba(232,243,230,1) 97%);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#e8f3e6",endColorstr="#e8f3e6",GradientType=1);
+}
+
+.section-dark2{
+  background: rgb(90,105,92);
+  background: -moz-linear-gradient(215deg, rgba(90,105,92,1) 0%, rgba(33,37,41,1) 50%, rgba(90,105,92,1) 100%);
+  background: -webkit-linear-gradient(215deg, rgba(90,105,92,1) 0%, rgba(33,37,41,1) 50%, rgba(90,105,92,1) 100%);
+  background: linear-gradient(215deg, rgba(90,105,92,1) 0%, rgba(33,37,41,1) 50%, rgba(90,105,92,1) 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#5a695c",endColorstr="#5a695c",GradientType=1);
 }
 
 :root{
@@ -143,4 +178,5 @@ input[type=checkbox] {
   align-items: center;
 }
 /* FIM Card da home 1,2,3 e 4 */
+
 
